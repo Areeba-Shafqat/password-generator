@@ -5,7 +5,7 @@ import string  # importing the string library for using string characters
 #function to generate a password based on the user's preferences
 def generate_password(length,use_digits,use_special):
     
-    char=string.ascii_letters# include all letters (a-z and A-Z)    
+    char=string.ascii_letters # include all letters (a-z and A-Z)    
     
     if use_digits:
         char+=string.digits # include numbers (0-9)
